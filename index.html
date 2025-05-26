@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Saya</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+  <!-- Header -->
+  <header class="bg-blue-700 text-white py-8 text-center" data-aos="fade-down">
+    <h1 class="text-4xl font-bold">Mita</h1>
+    <p class="text-lg mt-2">Frontend Developer | Web Enthusiast</p>
+  </header>
+
+  <!-- Container -->
+  <main class="max-w-4xl mx-auto px-6 py-10 space-y-10">
+
+    <!-- Tentang Saya -->
+    <section data-aos="fade-up" data-aos-duration="800">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Tentang Saya</h2>
+      <p>
+        Saya adalah seorang pengembang web pemula yang berfokus pada frontend development. Saat ini saya sedang mendalami HTML, CSS, JavaScript, dan React untuk membangun tampilan web yang interaktif dan responsif.
+      </p>
+    </section>
+
+    <!-- Keahlian -->
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Keahlian</h2>
+      <ul class="grid grid-cols-2 md:grid-cols-3 gap-3">
+        <li data-aos="zoom-in" data-aos-delay="200" class="bg-white shadow p-2 rounded text-center">HTML</li>
+        <li data-aos="zoom-in" data-aos-delay="300" class="bg-white shadow p-2 rounded text-center">CSS</li>
+        <li data-aos="zoom-in" data-aos-delay="400" class="bg-white shadow p-2 rounded text-center">JavaScript</li>
+        <li data-aos="zoom-in" data-aos-delay="500" class="bg-white shadow p-2 rounded text-center">Tailwind</li>
+        <li data-aos="zoom-in" data-aos-delay="600" class="bg-white shadow p-2 rounded text-center">React (belajar)</li>
+      </ul>
+    </section>
+
+    <!-- Portofolio -->
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Portofolio</h2>
+      <ul class="space-y-2">
+        <li data-aos="fade-right" data-aos-delay="300">
+          <a href="#" class="text-blue-600 hover:underline">To-Do List App</a> – Aplikasi manajemen tugas sederhana
+        </li>
+        <li data-aos="fade-right" data-aos-delay="400">
+          <a href="#" class="text-blue-600 hover:underline">Landing Page Kopi</a> – Desain promo kedai kopi lokal
+        </li>
+      </ul>
+    </section>
+
+    <!-- Pengalaman / Pendidikan -->
+    <section data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">Pendidikan</h2>
+      <p>
+        Belajar mandiri melalui kelas online seperti Dicoding, FreeCodeCamp, dan latihan proyek pribadi.
+      </p>
+    </section>
+
+    <!-- Kontak -->
+    <section data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+  <h2 class="text-2xl font-semibold text-blue-700 mb-4">Kontak</h2>
+  <div class="flex space-x-6 text-2xl">
+    <a href="mailto:kamu@email.com" aria-label="Email" class="text-red-600 hover:text-red-800" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://linkedin.com/in/kamu" aria-label="LinkedIn" class="text-blue-700 hover:text-blue-900" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/kamu" aria-label="GitHub" class="text-gray-800 hover:text-black" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-4 text-sm text-gray-500" data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">
+    &copy; 2025 mitabe | Tailwind CSS.
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true, // animasi hanya sekali saat scroll
+      duration: 800,
+    });
+  </script>
+
+</body>
+</html>
