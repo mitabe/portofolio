@@ -10,7 +10,7 @@ Di dalamnya terdapat CV online, showcase proyek-proyek web yang sudah saya kerja
 
 ## Cara Menjalankan
 Buka file `index.html` di browser favorit kamu.  
-Website ini juga sudah siap di-deploy ke layanan hosting seperti Netlify atau Vercel.
+Website ini juga sudah siap di-deploy ke layanan hosting seperti Vercel.
 
 ## Kontak
 Jika tertarik bekerja sama atau ingin berdiskusi, silakan hubungi saya melalui email atau sosial media yang ada di halaman portofolio.
