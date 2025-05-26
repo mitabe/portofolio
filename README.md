@@ -1,4 +1,4 @@
-# My Portfolio
+# Portofolio
 
 Ini adalah website portofolio pribadi saya sebagai Frontend Developer.  
 Di dalamnya terdapat CV online, showcase proyek-proyek web yang sudah saya kerjakan, serta kontak yang bisa dihubungi.
